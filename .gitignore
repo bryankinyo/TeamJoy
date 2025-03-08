@@ -1,7 +1,1 @@
-# Ignore Visual Studio files
-.vs/
-.vscode/
-.idea/
-# Ignore build output
-bin/
-obj/
+echo *.log >> .gitignore
