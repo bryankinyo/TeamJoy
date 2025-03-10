@@ -1,0 +1,10 @@
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\bin\Debug\net48\BasicInformationLibrary.dll
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\bin\Debug\net48\BasicInformationLibrary.pdb
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.csproj.AssemblyReference.cache
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.AssemblyInfoInputs.cache
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.AssemblyInfo.cs
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.dll
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.pdb
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.sourcelink.json

@@ -1,0 +1,9 @@
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\.netframework,version=v4.8\BasicInformationLibrary.csproj.AssemblyReference.cache
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\.netframework,version=v4.8\BasicInformationLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\.netframework,version=v4.8\BasicInformationLibrary.AssemblyInfoInputs.cache
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\.netframework,version=v4.8\BasicInformationLibrary.AssemblyInfo.cs
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\.netframework,version=v4.8\BasicInformationLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\bin\Debug\.netframework,version=v4.8\BasicInformationLibrary.dll
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\bin\Debug\.netframework,version=v4.8\BasicInformationLibrary.pdb
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\.netframework,version=v4.8\BasicInformationLibrary.dll
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\.netframework,version=v4.8\BasicInformationLibrary.pdb

@@ -1,0 +1,11 @@
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\bin\Debug\net8.0\BasicInformationLibrary.deps.json
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\bin\Debug\net8.0\BasicInformationLibrary.dll
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\bin\Debug\net8.0\BasicInformationLibrary.pdb
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net8.0\BasicInformationLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net8.0\BasicInformationLibrary.AssemblyInfoInputs.cache
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net8.0\BasicInformationLibrary.AssemblyInfo.cs
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net8.0\BasicInformationLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net8.0\BasicInformationLibrary.dll
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net8.0\refint\BasicInformationLibrary.dll
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net8.0\BasicInformationLibrary.pdb
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net8.0\ref\BasicInformationLibrary.dll

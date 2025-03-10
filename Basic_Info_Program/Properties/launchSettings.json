@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Basic_Info_Program": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
