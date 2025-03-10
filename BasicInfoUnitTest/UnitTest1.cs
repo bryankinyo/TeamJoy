@@ -1,4 +1,15 @@
-﻿using BasicInformationLibrary;
+﻿/*
+Group Name: Team Joy
+Group Members: Quiño, Bryan E.
+               Syllanto, Mary Jocelyn
+               Verano, Kierstien
+               Villareal, Ivan Vincent
+               Rebese, Vincent
+               Moreno, Rimark
+Subject: PROGRAMMING
+ */
+
+using BasicInformationLibrary;
 using BasicInformationLibrary.BasicInfo;
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;

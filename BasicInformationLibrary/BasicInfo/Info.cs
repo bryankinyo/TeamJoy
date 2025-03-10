@@ -1,4 +1,15 @@
-﻿using System;
+﻿/*
+Group Name: Team Joy
+Group Members: Quiño, Bryan E.
+               Syllanto, Mary Jocelyn
+               Verano, Kierstien
+               Villareal, Ivan Vincent
+               Rebese, Vincent
+               Moreno, Rimark
+Subject: PROGRAMMING
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
