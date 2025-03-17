@@ -8,7 +8,7 @@ Group Members: Quiño, Bryan E.
                Moreno, Rimark
 Subject: PROGRAMMING
  */
-
+using MySql.Data.MySqlClient;
 using System.Runtime.ExceptionServices;
 using BasicInformationLibrary;
 using BasicInformationLibrary.BasicInfo;
@@ -53,7 +53,7 @@ namespace Basic_Info_Program
 
             // Address
             Console.Write("House Number: ");
-            decimal.TryParse(Console.ReadLine(), out var housenumber);
+            var housenumber = Console.ReadLine();
             Console.Write("Street: ");
             var street = Console.ReadLine();
             Console.Write("Barangay: ");
@@ -68,12 +68,45 @@ namespace Basic_Info_Program
             Info.Barangay = barangay;
             Info.City = city;
             Info.Country = country;
-            
+
 
             Console.Clear();
             Console.WriteLine(Info.FullName());
             Console.WriteLine(Info.Age());
             Console.WriteLine(Info.Residence());
+
+            string connectionString = "server=localhost;database=BasicInfoDB;user=root;password=bryankinnot;";
+            try
+            {
+                using (MySqlConnection conn = new MySqlConnection(connectionString))
+                {
+                    conn.Open();
+                    Console.WriteLine("Database connection successful!");
+
+                    string query = "INSERT INTO UserInfo (FirstName, LastName, BirthDate, Age, HouseNumber, Street, Barangay, City, Country) " +
+                                   "VALUES (@FirstName, @LastName, @BirthDate, @Age, @HouseNumber, @Street, @Barangay, @City, @Country)";
+
+                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@FirstName", Info.FirstName);
+                        cmd.Parameters.AddWithValue("@LastName", Info.LastName);
+                        cmd.Parameters.AddWithValue("@BirthDate", birthDate);
+                        cmd.Parameters.AddWithValue("@Age", Info.YearsOld);
+                        cmd.Parameters.AddWithValue("@HouseNumber", Info.HouseNumber);
+                        cmd.Parameters.AddWithValue("@Street", Info.Street);
+                        cmd.Parameters.AddWithValue("@Barangay", Info.Barangay);
+                        cmd.Parameters.AddWithValue("@City", Info.City);
+                        cmd.Parameters.AddWithValue("@Country", Info.Country);
+
+                        cmd.ExecuteNonQuery();
+                        Console.WriteLine("Data successfully inserted!");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Database error: {ex.Message}");
+            }
         }
     }
 }

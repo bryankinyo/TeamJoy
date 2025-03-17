@@ -22,7 +22,7 @@ namespace BasicInformationLibrary.BasicInfo
         public static string? FirstName { get; set; }
         public static string? LastName { get; set; }
         public static decimal YearsOld { get; set; }
-        public static decimal HouseNumber { get; set; }
+        public static string? HouseNumber { get; set; }
         public static string? Street { get; set; }
         public static string? Barangay { get; set; }
         public static string? City { get; set; }
