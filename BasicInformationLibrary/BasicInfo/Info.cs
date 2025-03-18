@@ -25,6 +25,7 @@ namespace BasicInformationLibrary.BasicInfo
         public static string? HouseNumber { get; set; }
         public static string? Street { get; set; }
         public static string? Barangay { get; set; }
+        public static string? Municipality { get; set; }
         public static string? City { get; set; }
         public static string? Country { get; set; }
 
@@ -40,7 +41,7 @@ namespace BasicInformationLibrary.BasicInfo
 
         public static string Residence()
         {
-            return $"Address: {HouseNumber} {Street}., {Barangay}, {City}, {Country}";
+            return $"Address: {HouseNumber} {Street}., {Barangay}, {City}, {Municipality}, {Country}";
         }
     }
 }

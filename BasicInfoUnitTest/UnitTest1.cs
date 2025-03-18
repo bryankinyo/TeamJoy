@@ -36,13 +36,14 @@ namespace BasicInfo_UnitTest
             Assert.AreEqual("Age: 19", AgeResult);
 
             // Address Testing
-            Info.HouseNumber = 853;
+            Info.HouseNumber = "853-B";
             Info.Street = "Bayabas St";
             Info.Barangay = "Mambaling";
             Info.City = "Cebu City";
+            Info.Municipality = " Cebu";
             Info.Country = "Philippines";
             var ResidenceResult = Info.Residence();
-            Assert.AreEqual("Address: 853 Bayabas St., Mambaling, Cebu City, Philippines", ResidenceResult);
+            Assert.AreEqual("Address: 853-B Bayabas St., Mambaling, Cebu City, Cebu, Philippines", ResidenceResult);
         }
 
         [TestMethod]
@@ -60,13 +61,14 @@ namespace BasicInfo_UnitTest
             Assert.AreEqual("Age: 21", AgeResult);
 
             // Address Testing
-            Info.HouseNumber = 24;
+            Info.HouseNumber = "24";
             Info.Street = "Jumalon St";
             Info.Barangay = "Basak Pardo";
             Info.City = "Cebu City";
+            Info.Municipality = " Cebu";
             Info.Country = "Philippines";
             var ResidenceResult = Info.Residence();
-            Assert.AreEqual("Address: 24 Jumalon St., Basak Pardo, Cebu City, Philippines", ResidenceResult);
+            Assert.AreEqual("Address: 24 Jumalon St., Basak Pardo, Cebu City, Cebu, Philippines", ResidenceResult);
         }
         [TestMethod]
         public void RimarkMoreno()
@@ -83,13 +85,14 @@ namespace BasicInfo_UnitTest
             Assert.AreEqual("Age: 20", AgeResult);
 
             // Address Testing
-            Info.HouseNumber = 20;
+            Info.HouseNumber = "20";
             Info.Street = "Bayabas Extension St";
             Info.Barangay = "Punta Princesa";
             Info.City = "Cebu City";
+            Info.Municipality = " Cebu";
             Info.Country = "Philippines";
             var ResidenceResult = Info.Residence();
-            Assert.AreEqual("Address: 20 Bayabas Extension St., Punta Princesa, Cebu City, Philippines", ResidenceResult);
+            Assert.AreEqual("Address: 20 Bayabas Extension St., Punta Princesa, Cebu City, Cebu, Philippines", ResidenceResult);
         }
         [TestMethod]
         public void Ivan()
@@ -106,13 +109,14 @@ namespace BasicInfo_UnitTest
             Assert.AreEqual("Age: 23", AgeResult);
 
             // Address Testing
-            Info.HouseNumber = 11;
+            Info.HouseNumber = "11";
             Info.Street = "Tabada St";
             Info.Barangay = "Mambaling";
             Info.City = "Cebu City";
+            Info.Municipality = " Cebu";
             Info.Country = "Philippines";
             var ResidenceResult = Info.Residence();
-            Assert.AreEqual("Address: 11 Tabada St., Mambaling, Cebu City, Philippines", ResidenceResult);
+            Assert.AreEqual("Address: 11 Tabada St., Mambaling, Cebu City, Cebu, Philippines", ResidenceResult);
         }
         [TestMethod]
         public void Kierstien()
@@ -129,13 +133,14 @@ namespace BasicInfo_UnitTest
             Assert.AreEqual("Age: 19", AgeResult);
 
             // Address Testing
-            Info.HouseNumber = 123;
+            Info.HouseNumber = "123";
             Info.Street = "Bisag Asa";
             Info.Barangay = "Day-as";
             Info.City = "Cebu City";
+            Info.Municipality = " Cebu";
             Info.Country = "Philippines";
             var ResidenceResult = Info.Residence();
-            Assert.AreEqual("Address: 123 Bisag Asa., Day-as, Cebu City, Philippines", ResidenceResult);
+            Assert.AreEqual("Address: 123 Bisag Asa., Day-as, Cebu City, Cebu, Philippines", ResidenceResult);
         }
     }
 }

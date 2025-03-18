@@ -60,6 +60,8 @@ namespace Basic_Info_Program
             var barangay = Console.ReadLine();
             Console.Write("City: ");
             var city = Console.ReadLine();
+            Console.Write("Municipality: ");
+            var municipality = Console.ReadLine();
             Console.Write("Country: ");
             var country = Console.ReadLine();
 
@@ -67,6 +69,7 @@ namespace Basic_Info_Program
             Info.Street = street;
             Info.Barangay = barangay;
             Info.City = city;
+            Info.Municipality = municipality;
             Info.Country = country;
 
 
@@ -75,7 +78,7 @@ namespace Basic_Info_Program
             Console.WriteLine(Info.Age());
             Console.WriteLine(Info.Residence());
 
-            string connectionString = "server=localhost;database=BasicInfoDB;user=root;password=bryankinnot;";
+            string connectionString = "server=127.0.0.1;database=InfoDB;user=root;password=bryankinnot;";
             try
             {
                 using (MySqlConnection conn = new MySqlConnection(connectionString))
@@ -83,8 +86,8 @@ namespace Basic_Info_Program
                     conn.Open();
                     Console.WriteLine("Database connection successful!");
 
-                    string query = "INSERT INTO UserInfo (FirstName, LastName, BirthDate, Age, HouseNumber, Street, Barangay, City, Country) " +
-                                   "VALUES (@FirstName, @LastName, @BirthDate, @Age, @HouseNumber, @Street, @Barangay, @City, @Country)";
+                    string query = "INSERT INTO UserInformation (FirstName, LastName, BirthDate, Age, HouseNumber, Street, Barangay, City, Municipality, Country) " +
+                                   "VALUES (@FirstName, @LastName, @BirthDate, @Age, @HouseNumber, @Street, @Barangay, @City, @Municipality, @Country)";
 
                     using (MySqlCommand cmd = new MySqlCommand(query, conn))
                     {
@@ -96,6 +99,7 @@ namespace Basic_Info_Program
                         cmd.Parameters.AddWithValue("@Street", Info.Street);
                         cmd.Parameters.AddWithValue("@Barangay", Info.Barangay);
                         cmd.Parameters.AddWithValue("@City", Info.City);
+                        cmd.Parameters.AddWithValue("@Municipality", Info.Municipality);
                         cmd.Parameters.AddWithValue("@Country", Info.Country);
 
                         cmd.ExecuteNonQuery();
