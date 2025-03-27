@@ -21,6 +21,7 @@ namespace BasicInformationLibrary.BasicInfo
     {
         public static string? FirstName { get; set; }
         public static string? LastName { get; set; }
+        public static string? Birthday { get; set; }
         public static decimal YearsOld { get; set; }
         public static string? HouseNumber { get; set; }
         public static string? Street { get; set; }
@@ -34,9 +35,52 @@ namespace BasicInformationLibrary.BasicInfo
         {
             return $"Full Name: {FirstName} {LastName}";
         }
-        public static string Age()
+
+        public static string BirthDay(string inputDate = null)
         {
-            return $"Age: {YearsOld}";
+            DateTime birthday;
+            DateTime today = DateTime.Today;
+
+            while (true)
+            {
+                string dateToValidate = inputDate ?? Console.ReadLine();
+
+                if (DateTime.TryParse(dateToValidate, out birthday))
+                {
+                    if (birthday > today)
+                    {
+                        Console.WriteLine("Invalid input: Birthday cannot be a future date.");
+                    }
+                    else
+                    {
+                        Birthday = birthday.ToString("yyyy-MM-dd");
+                        return Birthday;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Invalid date format. Please enter a valid date (YYYY-MM-DD).");
+                }
+
+                inputDate = null;
+            }
+        }
+
+       
+
+        public static int Age()
+        {
+            DateTime today = DateTime.Today;
+            DateTime birthdate = DateTime.Parse(Birthday);
+
+            int age = today.Year - birthdate.Year;
+
+            if (birthdate > today.AddYears(-age))
+            {
+                age--;
+            }
+
+            return age;
         }
 
         public static string Residence()

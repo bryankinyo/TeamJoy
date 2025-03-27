@@ -1,13 +1,5 @@
 C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\bin\Debug\net48\BasicInformationLibrary.dll
 C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\bin\Debug\net48\BasicInformationLibrary.pdb
-C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.csproj.AssemblyReference.cache
-C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.AssemblyInfoInputs.cache
-C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.AssemblyInfo.cs
-C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.csproj.CoreCompileInputs.cache
-C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.dll
-C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.pdb
-C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.sourcelink.json
 C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\bin\Debug\net48\BouncyCastle.Cryptography.dll
 C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\bin\Debug\net48\Google.Protobuf.dll
 C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\bin\Debug\net48\K4os.Compression.LZ4.dll
@@ -24,4 +16,12 @@ C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\bin\Debu
 C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
 C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\bin\Debug\net48\ZstdSharp.dll
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.csproj.AssemblyReference.cache
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.AssemblyInfoInputs.cache
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.AssemblyInfo.cs
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.sourcelink.json
 C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInf.2CAC6A77.Up2Date
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.dll
+C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInformationLibrary\obj\Debug\net48\BasicInformationLibrary.pdb

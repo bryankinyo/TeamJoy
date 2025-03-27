@@ -8,7 +8,6 @@ Group Members: Quiño, Bryan E.
                Moreno, Rimark
 Subject: PROGRAMMING
  */
-using MySql.Data.MySqlClient;
 using System.Runtime.ExceptionServices;
 using BasicInformationLibrary;
 using BasicInformationLibrary.BasicInfo;
@@ -30,26 +29,12 @@ namespace Basic_Info_Program
 
 
             // Age
-            DateTime birthDate;
+            
 
-            while (true)
-            {
-                Console.Write("Birthdate (dd-mm-yyyy): ");
+           
+            Console.Write("Birthdate (dd-mm-yyyy): ");
 
-                if (DateTime.TryParse(Console.ReadLine(), out birthDate))
-                {
-                    break;
-                }
-            }
-
-            int age = DateTime.Now.Year - birthDate.Year;
-
-            if (DateTime.Now < birthDate.AddYears(age))
-            {
-                age--;
-            }
-
-            Info.YearsOld = age;
+            Info.Birthday = Info.BirthDay(Console.ReadLine());
 
             // Address
             Console.Write("House Number: ");
@@ -77,40 +62,6 @@ namespace Basic_Info_Program
             Console.WriteLine(Info.FullName());
             Console.WriteLine(Info.Age());
             Console.WriteLine(Info.Residence());
-
-            string connectionString = "server=127.0.0.1;database=InfoDB;user=root;password=bryankinnot;";
-            try
-            {
-                using (MySqlConnection conn = new MySqlConnection(connectionString))
-                {
-                    conn.Open();
-                    Console.WriteLine("Database connection successful!");
-
-                    string query = "INSERT INTO UserInformation (FirstName, LastName, BirthDate, Age, HouseNumber, Street, Barangay, City, Municipality, Country) " +
-                                   "VALUES (@FirstName, @LastName, @BirthDate, @Age, @HouseNumber, @Street, @Barangay, @City, @Municipality, @Country)";
-
-                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
-                    {
-                        cmd.Parameters.AddWithValue("@FirstName", Info.FirstName);
-                        cmd.Parameters.AddWithValue("@LastName", Info.LastName);
-                        cmd.Parameters.AddWithValue("@BirthDate", birthDate);
-                        cmd.Parameters.AddWithValue("@Age", Info.YearsOld);
-                        cmd.Parameters.AddWithValue("@HouseNumber", Info.HouseNumber);
-                        cmd.Parameters.AddWithValue("@Street", Info.Street);
-                        cmd.Parameters.AddWithValue("@Barangay", Info.Barangay);
-                        cmd.Parameters.AddWithValue("@City", Info.City);
-                        cmd.Parameters.AddWithValue("@Municipality", Info.Municipality);
-                        cmd.Parameters.AddWithValue("@Country", Info.Country);
-
-                        cmd.ExecuteNonQuery();
-                        Console.WriteLine("Data successfully inserted!");
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Database error: {ex.Message}");
-            }
         }
     }
 }
