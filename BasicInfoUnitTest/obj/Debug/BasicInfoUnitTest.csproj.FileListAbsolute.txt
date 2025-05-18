@@ -1,2 +1,0 @@
-C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInfoUnitTest\obj\Debug\BasicInfoUnitTest.csproj.AssemblyReference.cache
-C:\Users\Jason Rey Quiño\source\repos\Team_Joy\BasicInfoUnitTest\obj\Debug\BasicInfoUnitTest.csproj.CoreCompileInputs.cache
